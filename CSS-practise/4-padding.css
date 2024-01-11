@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(150, 195, 235);
+    padding-top: 1px;
+    text-align: center;
+}
+.div1{
+    background-color: rgb(139, 183, 221);
+    width: 150px; height: 150px; margin-top: 20px;
+    margin: auto;
+}
+.div2{
+    background-color: rgb(102, 139, 172);
+    width: 150px; height: 150px; margin-top: 20px;
+}
+.div3{
+    background-color: rgb(122, 141, 158);
+    width: 150px;
+     height: 150px; margin-top: 20px;
+}
+span{background-color: red;
+font-size: 2rem;
+width: ;
+
+}
