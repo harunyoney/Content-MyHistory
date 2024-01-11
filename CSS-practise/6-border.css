@@ -1,0 +1,23 @@
+#par1{
+    border: 2px solid red;
+}
+
+#par2{
+    border-width: 5px;
+    border-style: dotted;
+    border-color: aqua;
+}
+
+#par3{
+    border: 3px double magenta;
+}
+
+#par4{
+    border: 10px dashed red;
+}
+
+#par5{
+    border: 5px outset olive;
+
+    
+}
