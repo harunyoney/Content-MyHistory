@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Formlar</h1>
+    <form action="result.html" method="get">
+      <div>
+        <label for="name">İsminiz:</label>
+        <input
+          type="text"
+          id="name"
+          name="Kullanıcı adı"
+          required
+          placeholder="isim girin"
+        />
+        <br />
+        <label for="Soyadı">Soyadınız</label>
+        <input type="text" id="Soyadı" name="Soyadı" placeholder="soyadı" />
+      </div>
+
+      <div>
+        <label for="password">Sifre</label>
+        <input type="password" id="password" name="Sifre" placeholder="şifre" />
+      </div>
+
+      <div>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" placeholder="email" />
+      </div>
+
+      <div>
+        <p>GENDER:</p>
+        <label for="gender1">Male</label>
+        <input type="radio" id="gender1" name="cinsiyet" value="Erkek" />
+        <label for="gender2">Female</label>
+        <input type="radio" id="gender2" name="cinsiyet" value="Kadın" />
+      </div>
+
+      <div>
+        <span>kullandıgınız araçlar</span>
+        <label for="arac1">toyota</label>
+        <input type="checkbox" name="toyota" id="arac1" value="toyota" />
+
+        <label for="arac2">honda</label>
+        <input type="checkbox" name="honda" id="arac2" value="honda" />
+
+        <label for="arac3">bmw</label>
+        <input type="checkbox" name="bmw" id="arac3" value="bmw" />
+      </div>
+      <div>
+<label for="age">Age</label>
+<input type="number" name="kullanıcı yaşı" id="age" min="2" max="75" step="1">
+      </div>
+      <div>
+        <label for="ara">Aranan</label>
+        <input type="search" name="aranan" id="ara">
+      </div>
+      <div>
+        <label for="color">Renk</label>
+        <input type="color" name="color" id="color">
+      </div>
+      <div>
+        <label for="tarih">Dogum tarihi</label>
+        <input type="date" name="tarih" id="tarih" max="2010-01-01">
+      </div>
+      <div>
+        <p><label for="file">Dosya seçiniz</label></p>
+        <input type="file" name="file" id="file" >
+      </div>
+
+      <div>
+        <label for="tel">telefon girin</label>
+        <input type="tel" name="tel" id="tel" pattern="[0-9]{4}[0-9]{3}[0-9]{4}">
+      </div>
+      <div>
+        <label for=""></label>
+        <br>
+        <select name="seçilen tatlı" id="şeker" size="4" multiple >
+            <option value="sütlaç">sütlaç</option>
+            <option value="keşkül">keşkül</option>
+            <option value="baklava">baklava</option>
+            <option value="magnolin">magnolin</option>
+
+        </select>
+      </div>
+      <br> <hr> <hr>
+      <select name="seçilen tatlı" id="şeker">
+        <optgroup label="şerbetli tatlılar">
+          <option value="sütlaç">sütlaç</option>
+          <option value="keşkül">keşkül</option>
+          <option value="baklava">baklava</option>
+          <option value="magnolin">magnolin</option>
+        </optgroup>
+
+      </select>
+    </div>
+        
+    
+    
+
+
+
+
+
+
+      <input type="submit" value="Gönder" />
+    </form>
+  </body>
+</html>
