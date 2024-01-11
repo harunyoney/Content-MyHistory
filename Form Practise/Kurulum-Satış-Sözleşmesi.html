@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satış sözleşmesi</title>
+    <link rel="stylesheet" href="./Kurulum-Satış-Sözleşmesi.css">
+
+</head>
+<body>
+    <h1>Clarusway Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+
+                                  <!-- KUTU 1 -->
+    <form action="">
+    <fieldset class="fieldset">
+        <legend>Sözleşme Onay</legend>
+        <input type="checkbox" name="kabul-tiki" id="tik">
+        <label for="tik">Aşagıdaki Bilgilerin doğrulugunu kabul ediyorum ve sözleşmesini onaylıyorum</label>
+    <div>   <input type="submit" value="Formu kaydet">
+            <input type="reset" value="Formu temizle">
+    </div>
+       
+    </fieldset>
+                                 <!-- KUTU 2 -->
+    <fieldset>
+          <legend>Kişisel bilgiler</legend> 
+<div>
+    <div id="kutu1">       
+        <div>   <label for="Ad">Ad</label></div>
+        <div>   <label for="ID">Form güvenlik ID</label></div>
+        <div>   <label for="Soyad">Soyad</label></div>
+        <div>   <label for="yaş">Yaş</label></div>
+        <div>   <label for="email">Mail Adresi</label></div>
+        <div>   <label for="foto">Fotoğraf Ekle</label></div>
+            
+    </div >
+
+         
+            <div id="kutu2">
+            <div><input type="text" name="Ad" id="Ad" > </div>
+            <div><input type="text" name="ID" id="ID"></div>
+            <div><input type="text" name="Soyad" id="Soyad"></div>
+            <div><input type="number" name="yaş" id="yaş" min="18" max="65"></div>
+            <div><input type="email" name="email" id="email"></div>
+            <div><input type="file" name="foto" id="foto"></div>
+        </div>
+
+    </div>
+        
+            
+        
+
+    </fieldset>
+
+                                        <!-- KUTU 3 -->
+    <fieldset >
+        <legend>Diğer Bilgiler</legend>
+        <h4>Buradaki alanlar Mesleki Deneyimi Kapsar</h4>
+        <div >
+            <label for="tarih">Sektöre Giriş Tarihi</label>
+            <input type="date" name="tarih" id="tarih" class="diğer">
+        </div >
+        <div id="kutu24">
+            <label for="deneyim">Sektör Deneyimi </label > 
+        
+            <div id="kutu3">
+                
+                <div>
+            <input type="radio" name="deneyim" id="deneyim">
+            <label for="deneyim">1-5 yıl</label>  </div>
+            <div>
+            <input type="radio" name="deneyim" id="deneyim">
+            <label for="deneyim">6-10 yıl</label>  </div>
+            
+            <div>
+            <input type="radio" name="deneyim" id="deneyim">
+            <label for="deneyim">11-15 yıl</label> </div>
+            <div>
+            <input type="radio" name="deneyim" id="deneyim">
+            <label for="deneyim">15-üzeri</label> </div>
+            </div>
+            </div>
+            
+        <div>
+        <label for="dil">Proglamlama Dilleri</label>
+        <select name="dil" id="dil" size="4" multiple class="diğer">
+            <option value="">C#</option>
+            <option value="">PHP</option>
+            <option value="">Java</option>
+            <option value="">JavaScript</option>
+            <option value="">JavaScript</option>
+            <option value="">JavaScript</option>
+
+
+        </select>
+    </div>
+    </div>
+
+    </fieldset>
+                        <!-- KUTU 4 -->
+
+
+    <Fieldset >
+        <legend>Sözleşme Kopyası</legend>
+        <label for="copy"></label>
+        <textarea name="copy" id="copy" cols="50" rows="7" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum id eos soluta, quo at voluptatum aut provident, ullam facere, similique nostrum blanditiis enim. Similique est blanditiis delectus reprehenderit nisi illum dolor iusto magnam!"></textarea>
+    </Fieldset>
+
+                        <!-- KUTU 5 -->
+    <fieldset>
+        <legend>Mail Listesi</legend>
+        mail listesine katılmak <label for="mail" > <strong>İstiyorum</strong></label>
+        <input type="radio" name="mail" id="mail">
+        <div>
+
+        mail listesine katılmak <label for="mail" > <strong>İstemiyorum</strong></label>
+        <input type="radio" name="mail" id="mail">
+    </div>
+
+    </fieldset>
+
+</form>
+</body>
+</html>

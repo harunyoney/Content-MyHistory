@@ -1,0 +1,33 @@
+
+textarea{resize: none;}
+h4{ margin-top: 3px;
+margin-left: 25px;}
+
+#kutu2{margin-left: 10px;
+    
+    display: inline-block;}
+#kutu1{
+    width: 130px; height: 120px;
+    display: inline-block;
+    text-align: left;
+   margin-top: 0;
+}
+
+#kutu3{
+    display: inline-block;
+    margin-left: 15px;
+}
+/* span{
+    background-color: aqua;
+    text-align: center;
+margin-top: 0;
+     */
+     
+ 
+
+}
+
+#kutu24{
+    text-align: center;
+}
+
