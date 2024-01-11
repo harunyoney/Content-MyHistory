@@ -1,0 +1,15 @@
+
+li:hover{background-color: mediumseagreen;
+font-weight: 900;
+cursor: ;}
+#list{
+    list-style-type: none;
+    border: 2px solid black;
+}
+
+h1{color: red; text-align: center;}
+
+span{background-color: black;}
+span:hover{font-size: larger;
+cursor: grab;}
+ul{background-color: rgb(226, 201, 169);}
