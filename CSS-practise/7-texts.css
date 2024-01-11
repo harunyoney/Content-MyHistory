@@ -1,0 +1,48 @@
+
+h1{
+    border: 2px solid red;
+    color: blue;
+    text-align: center;
+    text-align: left;
+}
+
+#par1{
+color: red;
+text-align: center;
+column-count: 3;
+column-rule: 3px solid blue;
+}
+
+#par2{
+    color: rgb(155, 97, 97);
+    text-align: right;
+    
+}
+
+#par3{
+    color: rgba(145, 75, 75, 0.753);
+    text-align: justify;
+    text-indent: 29px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    text-shadow: 5px 5px 10px black;
+    text-transform: uppercase;
+    
+
+}
+
+#par4{
+    color: rgb(197, 37, 170);
+    text-transform: capitalize;
+}
+
+#par5{
+    color: rgb(58, 31, 180);
+    text-transform: uppercase;
+    text-align: justify;
+    text-decoration: underline wavy;
+}
+
+#par6{
+    text-decoration: line-through overline wavy;
+}

@@ -1,0 +1,34 @@
+
+.container{
+border: 2px solid black;
+width: 400px;
+height: 400px;
+margin: 50px auto;
+padding: 10px;
+text-align: justify;
+text-transform: uppercase;
+color: aqua;
+overflow: scroll;
+
+
+
+background-image: url(./img/resim-2_720.jpg);
+background-size: 200px 200px;
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+background-position: center;
+
+}
+
+.container2{
+    border: 2px solid black;
+    width: 20rem;
+    height: 20rem;
+    margin: auto;
+    
+
+
+
+
+}
