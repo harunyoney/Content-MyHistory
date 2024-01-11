@@ -74,7 +74,7 @@
       <div>
         <label for="şeker">seçilen tatlılar</label>
         <br>
-        <select name="seçilen tatlı" id="şeker" size="6" multiple >
+        <select name="seçilen tatlı" id="şeker"   >
             <option value="sütlaç">sütlaç</option>
             <option value="keşkül">keşkül</option>
             <option value="baklava">baklava</option>
@@ -97,20 +97,37 @@
           <option value="magnolin">magnolin</option>
         </optgroup>
 
-        
+      </select>  </div>
 
-
-      </select>
-    </div>
-        
+      <!-- text area  -->
+      <div>
+        <label for="yorum">Yorum:</label> <br><br><br>
+        <textarea name="yorum" id="yorum"  placeholder="yorum yazınız"></textarea>
+      </div>
     
-    
+      <!-- datalist -->
+      <div>
+        <label for="tarayici">tarayici:</label>
+        <input type="text" id="tarayici" list="browser" name="kullanılan-browser">
+        <datalist id="browser">
+          <option value="Crome"></option>
+          <option value="Firefox"></option>
+          <option value="Opera"></option>
+
+        </datalist>
+      </div>    <br> <br><br>
+      <div>
+        <fieldset>
+          <legend>Kişisel Bilgiler</legend>
+          <label for="">ad:</label>
+          <input type="text" name="name" placeholder="adınız"> <br>
+          <label for="">soyad</label>
+          <input type="text" name="surname" placeholder="soyadınız">
+        </fieldset>
+      </div>
 
 
-
-
-
-
+      
       <input type="submit" value="Gönder" />
       <input type="reset" value="reset">
     </form>
