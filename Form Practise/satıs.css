@@ -18,11 +18,23 @@ margin: 0;}
     width: 800px;
 }
 #div2 input{
-background-color: aquamarine;
+/* background-color: aquamarine; */
 text-align: right;
-margin-left: 130px;
+margin-left: 30px;
 }
 
 /* input{background-color: rgb(182, 128, 46);} */
 
 #ad{ background-color: aqua;}
+
+div#div2 p{
+    display: inline-block;
+   /* background-color: aqua; */
+   margin: 0;
+   width: 150px;
+}
+
+div#div2 div input:hover {
+    background-color: rgb(218, 218, 241);
+    
+}

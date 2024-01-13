@@ -1,137 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Satış sözleşmesi</title>
-    <link rel="stylesheet" href="./satıs.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./satıs.css" />
+  </head>
+  <body>
     <h1>Clarusway Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
 
-                                  <!-- KUTU 1 -->
+    <!-- KUTU 1 -->
     <form action="">
-    <fieldset class="fieldset">
+      <fieldset class="fieldset">
         <legend>Sözleşme Onay</legend>
-        <input type="checkbox" name="kabul-tiki" id="tik">
-        <label for="tik">Aşagıdaki Bilgilerin doğrulugunu kabul ediyorum ve sözleşmesini onaylıyorum</label>
-      <input type="submit" value="Formu kaydet">
-            <input type="reset" value="Formu temizle">
-    
-       
-    </fieldset >
-                                 <!-- KUTU 2 -->
-    <fieldset id="kut2">
-          <legend>Kişisel bilgiler</legend> 
+        <input type="checkbox" name="kabul-tiki" id="tik" />
+        <label for="tik"
+          >Aşagıdaki Bilgilerin doğrulugunu kabul ediyorum ve sözleşmesini
+          onaylıyorum</label
+        >
+    <div>
+        <input type="submit" value="Formu kaydet" />
+        <input type="reset" value="Formu temizle" />
+    </div>
+      </fieldset>
+      <!-- KUTU 2 -->
+      <fieldset id="kut2">
+        <legend>Kişisel bilgiler</legend>
 
         <div id="div2">
-         <div>  <label for="Ad">Ad</label>
-           <input  type="text" name="Ad" id="Ad" > 
+          <div>
+            <p><label for="Ad">Ad</label> </p>
+            <input type="text" name="Ad" id="Ad" />
+          </div>
+          <div>
+            <p><label for="ID">Form güvenlik ID</label></p>
+            <input type="text" name="ID" id="ID" />
+          </div>
+          <div>
+            <p><label for="Soyad">Soyad</label></p>
+            <input type="text" name="Soyad" id="Soyad" /> 
+          </div>
+          <div>
+            <p><label for="yaş">Yaş</label></p>
+            <input type="number" name="yaş" id="yaş" min="18" max="65" />
+          </div>
+          <div>
+            <p><label for="email">Mail Adresi</label></p>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <p><label for="foto">Fotoğraf Ekle</label></p>
+            <input type="file" name="foto" id="foto" />
+          </div>
         </div>
-         <div>  <label for="ID">Form güvenlik ID</label>
-           <input type="text" name="ID" id="ID">
-        </div>
-        <div>
-           <label for="Soyad">Soyad</label>
-           <input type="text" name="Soyad" id="Soyad">
-        </div>
-        <div>
-           <label for="yaş">Yaş</label>
-           <input type="number" name="yaş" id="yaş" min="18" max="65">
-        </div>
-        <div>
-           <label for="email">Mail Adresi</label>
-           <input type="email" name="email" id="email">
-        </div>
-        <div>
-           <label for="foto">Fotoğraf Ekle</label>
-           <input type="file" name="foto" id="foto">
-        </div>   
-    </div>
-    
-       
-        
-        
-        
-        
-        
-    
-    
-    
-        
-            
-        
+      </fieldset>
 
-    </fieldset>
-
-                                        <!-- KUTU 3 -->
-    <fieldset >
+      <!-- KUTU 3 -->
+      <fieldset>
         <legend>Diğer Bilgiler</legend>
         <h4>Buradaki alanlar Mesleki Deneyimi Kapsar</h4>
-        
-            <label for="tarih">Sektöre Giriş Tarihi</label>
-            <input type="date" name="tarih" id="tarih" class="diğer">
-        
-        
-            <label for="deneyim">Sektör Deneyimi </label > 
-        
-           
-                
-                
-            <input type="radio" name="deneyim" id="deneyim">
-            <label for="deneyim">1-5 yıl</label>  
-            
-            <input type="radio" name="deneyim" id="deneyim">
-            <label for="deneyim">6-10 yıl</label>  
-            
-            
-            <input type="radio" name="deneyim" id="deneyim">
-            <label for="deneyim">11-15 yıl</label> 
-            
-            <input type="radio" name="deneyim" id="deneyim">
-            <label for="deneyim">15-üzeri</label> 
-            
-            
-            
-        
+
+        <label for="tarih">Sektöre Giriş Tarihi</label>
+        <input type="date" name="tarih" id="tarih" class="diğer" />
+
+        <label for="deneyim">Sektör Deneyimi </label>
+
+        <input type="radio" name="deneyim" id="deneyim" />
+        <label for="deneyim">1-5 yıl</label>
+
+        <input type="radio" name="deneyim" id="deneyim" />
+        <label for="deneyim">6-10 yıl</label>
+
+        <input type="radio" name="deneyim" id="deneyim" />
+        <label for="deneyim">11-15 yıl</label>
+
+        <input type="radio" name="deneyim" id="deneyim" />
+        <label for="deneyim">15-üzeri</label>
+
         <label for="dil">Proglamlama Dilleri</label>
         <select name="dil" id="dil" size="4" multiple class="diğer">
-            <option value="">C#</option>
-            <option value="">PHP</option>
-            <option value="">Java</option>
-            <option value="">JavaScript</option>
-            <option value="">JavaScript</option>
-            <option value="">JavaScript</option>
-
-
+          <option value="">C#</option>
+          <option value="">PHP</option>
+          <option value="">Java</option>
+          <option value="">JavaScript</option>
+          <option value="">JavaScript</option>
+          <option value="">JavaScript</option>
         </select>
-    
-    
+      </fieldset>
+      <!-- KUTU 4 -->
 
-    </fieldset>
-                        <!-- KUTU 4 -->
-
-
-    <Fieldset >
+      <fieldset>
         <legend>Sözleşme Kopyası</legend>
         <label for="copy"></label>
-        <textarea name="copy" id="copy" cols="50" rows="7" placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum id eos soluta, quo at voluptatum aut provident, ullam facere, similique nostrum blanditiis enim. Similique est blanditiis delectus reprehenderit nisi illum dolor iusto magnam!"></textarea>
-    </Fieldset>
+        <textarea
+          name="copy"
+          id="copy"
+          cols="50"
+          rows="7"
+          placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum id eos soluta, quo at voluptatum aut provident, ullam facere, similique nostrum blanditiis enim. Similique est blanditiis delectus reprehenderit nisi illum dolor iusto magnam!"
+        ></textarea>
+      </fieldset>
 
-                        <!-- KUTU 5 -->
-    <fieldset>
+      <!-- KUTU 5 -->
+      <fieldset>
         <legend>Mail Listesi</legend>
-        mail listesine katılmak <label for="mail" > <strong>İstiyorum</strong></label>
-        <input type="radio" name="mail" id="mail">
-        
+        mail listesine katılmak
+        <label for="mail"> <strong>İstiyorum</strong></label>
+        <input type="radio" name="mail" id="mail" />
 
-        mail listesine katılmak <label for="mail" > <strong>İstemiyorum</strong></label>
-        <input type="radio" name="mail" id="mail">
-    
-
-    </fieldset>
-
-</form>
-</body>
+        mail listesine katılmak
+        <label for="mail"> <strong>İstemiyorum</strong></label>
+        <input type="radio" name="mail" id="mail" />
+      </fieldset>
+    </form>
+  </body>
 </html>

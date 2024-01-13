@@ -161,7 +161,7 @@ ul.before-after li::before{
     content: '💋';
     margin: 10px;
 }
-ul.before-after li:nth-child(3)::after{
+ul.before-after li:nth-child(3)::after:hover{
     margin-left: 10px;
     content: '🤷‍♂️';
 }
