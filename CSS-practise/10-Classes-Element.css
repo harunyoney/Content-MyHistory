@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,300&family=Roboto:ital,wght@1,100&family=Salsa&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Salsa', cursive;
+}
+
+/* Classı languages olan ul yi seç  ul.languages */
+ul.languages{
+    border: 2px solid black;
+    /* padding: 0; */
+
+    /* list tikleri stilleri */
+
+    list-style-type: none;
+    list-style-type: circle;
+    list-style-type: lower-alpha;
+    list-style-type: georgian;
+    list-style-type: square;
+
+
+    /* List madde tiklerinin posisyonu */
+
+    list-style-position: inside;
+
+    /* liste ikonuna harici ikon ekleme */
+    list-style-image:url(./img/wand-sparkles-solid.svg) ;
+    
+}
+
+
+i{
+    color: red;
+}
+
+ul.languages li{
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+    margin: 5px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 30px;
+    border: 3px dotted orange;
+    border-left: 5px solid gray;
+}
+
+ul.languages li::before{
+    content: '😘';
+    background-color: blue;
+    
+}
+
+/*! PSEODU CLASSES */
+
+ul.pseudo li:first-child {
+    background-color: red;
+}
+ul.pseudo li:last-child{
+    background-color: blue;
+}
+
+ul.pseudo li:nth-child(3) {
+    background-color: rgb(212, 212, 134);
+}
+
+ul.pseudo li:nth-child(odd){
+    background-color: gray;
+}
+ul.pseudo li:nth-child(even) {
+    background-color: rgba(145, 21, 21, 0.411);
+}
+
+ul.pseudo li:hover{
+    background-color: red;  
+}
+
+ul.pseudo li:active{
+    background-color: brown;
+}
+
+input:focus{
+    background-color: red;
+    color: blue;
+}
+
+
+/*! LINK PSUEDO CLASSES */
+
+nav.link a:link{
+color: red;
+}
+nav.link a:visited{
+    color: aqua;
+}
+
+nav.link a:hover{
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    background-color: black;
+    border: 4px solid rgb(177, 91, 91);
+}
+
+
+nav.link a:active{
+    font-size: smaller;
+}
+
+
+ul#twq li{
+    background-color: red;
+}
+
+
+nav.cw a{
+    text-decoration: none;
+    border: 4px dashed black;
+    padding: 5px;
+    margin: 10px;
+    color: darkorange;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+nav.cw a:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+
+nav.cw a:hover i{
+    color: black;
+}
+
+
+.p-elements::first-line{
+    color: red;
+}
+
+.p-elements::first-letter{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+ul.before-after{
+    list-style-type: none;
+
+}
+
+ul.before-after li{
+    background-color: aqua;
+    margin: 0.5rem;
+    width: 150px;
+    border-radius: 10px;
+}
+
+ul.before-after li::before{
+    content: '💋';
+    margin: 10px;
+}
+ul.before-after li:nth-child(3)::after{
+    margin-left: 10px;
+    content: '🤷‍♂️';
+}
