@@ -1,0 +1,18 @@
+div.box{
+    padding: 20px;
+    display:inherit;
+    background-color: rgba(27, 69, 94, 0.705);
+    border: 2px solid;
+    border-radius: 5px;
+}
+p.text{
+    background-color: rgba(160, 44, 160, 0.616);
+    display: inline-block;
+    padding-right: 50px;
+}
+.form{
+    padding: 50px;
+}
+#legend{
+    color: red;
+    background-color:rgba(8, 223, 223, 0.39) ;}

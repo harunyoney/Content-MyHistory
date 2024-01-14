@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="./formm.css" />
+  </head>
+  <body>
+    <form class="form" action="./result.html" method="get">
+        <fieldset>
+            <legend id="legend">WE WANNA KNOW YOU</legend>
+        <div class="box">
+            <label for="name">Name</label>
+        <input type="text" name="Name" id="name" placeholder="name" />
+      </div>
+      <div class="box">
+        <label for="surname">Surname</label>
+        <input type="text" name="Surname" id="surname" placeholder="surname" />
+      </div>
+      <div class="box">
+        <label for="email">E-mail</label>
+        <input type="email" name="Email" id="email" placeholder="E-mail" />
+      </div>
+      <div class="box">
+        <label for="age">Age</label>
+        <input type="number" name="Age" id="age" min="0" />
+      </div>
+      <div class="box">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="Password"
+          id="password"
+          placeholder="Password"/>
+      </div>
+      <div class="box">
+        <label for="search">Search</label>
+        <input type="search" name="Search" id="search" placeholder="search" />
+      </div>
+      <div>
+        <p class="text">Gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="Male" />
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female" />
+      </div>
+      <div>
+        <p class="text">Favorite Movies:</p>
+        <label for="comedy">Comedy</label>
+        <input type="checkbox" name="Movies" id="comedy" value="comedy" />
+        <label for="sport">Sport</label>
+        <input type="checkbox" name="Movies" id="sport" value="sport" />
+      </div>
+      <div>
+        <label for="file"></label>
+        <input type="file" name="File" id="file"/>
+      </div>
+      <br /><br />
+      <div>
+        <input type="submit" id="send" />
+        <input type="reset" id="reset" />
+      </div>
+    </fieldset>
+    </form>
+  </body>
+</html>
