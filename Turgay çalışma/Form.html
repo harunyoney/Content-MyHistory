@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <h1>FORMLAR</h1>
+
+    <form action="result.html" method="get">
+        <div>
+            <label for="isim">  isim </label>
+            <input type="text" id="isim" name="user-name" placeholder="name" >
+
+     </div>
+
+     <div>
+        <label for="password"> şifre</label>
+        <input type="password" id="password" name="password" placeholder="password">
+     </div>
+
+     <div>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="email" >
+        <!-- required -->
+        
+
+     </div>
+     <div>
+        <label for="gender1">man</label>
+        
+        <input type="radio" id="gender1" name="cinsiyet" value="erkek" >
+
+        <label for="gender1">woman</label>
+        <input type="radio" id="gender1"name="cinsiyet" value="kadın">
+        
+    </div>
+    <div>
+        <p>sevdiğiniz film türü:</p>
+        <label for="polisiye">polisiye</label>
+        <input type="checkbox" id="polisiye" name="movie" value="polisiye" >
+
+        <label for="spor">spor</label>
+        <input type="checkbox" id="spor" name="movie" value="spor" >
+
+        <label for="komedi">komedi</label>
+        <input type="checkbox" id="komedi" name="movie" value="komedi" >
+    </div>
+
+
+    <div> 
+        <label for="age"> Age </label>
+        <input type="number" name="kullanıcı yaşı" id="age" min="18"  max="65" step="1">
+      
+    </div>
+    <div>
+        <!-- <label for="file">DOSYA SEÇİNİZ</label> -->
+        <input type="file" id="file" name="dosya">
+    </div>
+
+    <div>
+        <label for="tel">TELEFON NO</label>
+        <input type="tel" name="tel" id="tel" pattern="[0-0]{1}[5-5]{1}[0-9]{9}" placeholder="05xxxxxxxxx">
+    </div>
+
+<!-- </div>
+<br> <hr> <hr>
+<select name="seçilen tatlı" id="şeker" size="10" multiple>
+  <optgroup label="şerbetli tatlılar">
+    <option value="sütlaç">sütlaç</option>
+    <option value="keşkül">keşkül</option>
+    <option value="baklava">baklava</option>
+    <option value="magnolin">magnolin</option>
+  </optgroup>
+  <optgroup label="şerbetli tatlılar">
+    <option value="sütlaç">sütlaç</option>
+    <option value="keşkül">keşkül</option>
+    <option value="baklava">baklava</option>
+    <option value="magnolin">magnolin</option>
+  </optgroup>
+
+</select>  </div> -->
+
+<div>
+        <label for="yorum">Yorum:</label> 
+        <br>
+        <textarea name="yorum" id="yorum"  placeholder="yorum yazınız"></textarea>
+    </div>
+    
+
+    <!-- datalist -->
+
+    <div>
+
+        <label for="tarayıcılar">tarayıcılar</label>
+        <input type="text" id="tarayıcılar" name="tarayıcılar" list="browser">
+        <datalist id="browser">
+            <option value="Crome"></option>
+            <option value="firefox"></option>
+            <option value="Opera"></option>
+        </datalist>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+
+<div class="div1">
+          <p>  <label for="ad">ad:</label></p>  
+            <input type="text" name="name" placeholder="adınız" id="ad">
+        </div>
+
+          
+
+<div class="div1">
+            <p><label for="soyad">soyad:</label></p>
+            <input type="text" name="surname" placeholder="soyadınız" id="soyad">
+        </div>
+          </fieldset>
+    </div>
+
+
+
+    
+    
+    <br><br><br>
+    <input type="submit"  value="Gönder">
+    <input type="reset" value="reset">
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>

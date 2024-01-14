@@ -1,0 +1,13 @@
+
+p{
+margin: 0;
+}
+
+
+
+.div1 p {
+    /* background-color: aqua; */
+    width: 50px;
+    display: inline-block;
+}
+
