@@ -4,6 +4,7 @@ div.box{
     background-color: rgba(27, 69, 94, 0.705);
     border: 2px solid;
     border-radius: 5px;
+    width: 500px;
 }
 p.text{
     background-color: rgba(160, 44, 160, 0.616);
