@@ -1,0 +1,23 @@
+
+h1{
+    
+    background-color: rgb(197, 243, 228);
+    border: 10px solid ;
+    text-align: center;
+    font-weight: 900;
+}
+#css{
+    color: red;
+    text-decoration: underline;
+    text-shadow: 5px -15px 1px ;
+    letter-spacing: 4px;
+    line-height: 8.5;
+    font-weight: 900;
+}
+
+
+div{
+    border: 2px solid red;
+    text-align: center;
+    vertical-align: text-top;
+}
