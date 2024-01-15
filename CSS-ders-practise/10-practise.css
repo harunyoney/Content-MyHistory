@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+* {
+  /* margin: 0; */
+}
+
+ul.cost {
+  /* background-color: blanchedalmond; */
+  /* border: 2px solid red; */
+  /* padding: 0 ; */
+  list-style-type: square;
+  list-style-type: circle;
+  list-style-type: georgian;
+  list-style-type: none;
+  padding-left: 0;
+
+  /* madde imleri li-lerin içine mi dısına mı ayarı */
+  list-style-position: inside;
+  list-style-image: url(./img/coins-solid.svg);
+}
+
+ul.cost li {
+  background-color: antiquewhite;
+  width: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 1px 20px;
+  border: 2px solid red;
+}
+ul.cost li i:hover {
+  color: rgb(182, 141, 141);
+  cursor: pointer;
+}
+
+ul.pseudo li:first-child {
+  color: red;
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+ul.pseudo li:last-child {
+  color: rgb(9, 49, 49);
+  font-family: 'Dela Gothic One', sans-serif;
+}
+
+ul.pseudo li:nth-child(odd){
+    background-color: aquamarine;
+}
+
+ul.pseudo li:nth-child(even):hover{
+    background-color: blue;
+}
