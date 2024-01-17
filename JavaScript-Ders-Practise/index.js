@@ -58,3 +58,16 @@ console.log(-3.13>=3.13);
 
 console.log(window);
 
+//! STRING DATA TYPE
+
+ad="harun"
+let str1="selam"
+let str2="iyi mi geceler"
+let str3=`merhaba ${ad}`
+
+let str4= new String ("ksdkasndas")
+
+
+
+
+console.log(str4);
