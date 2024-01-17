@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./netflix.css" />
+    <title>Netflix</title>
+    <style>
+      #span1 {
+        color: red;
+        font-family: "Bowlby One SC", cursive;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="conteiner">
+    <h1>net<span id="span1">flix</span></h1>
+    <h5>Thank you for signing up at Netflix.Tell us more about your self</h5>
+    <form id="bigbox" action="./result.html" method="get">
+      
+        <div class="box1">
+          <label for="namebox">Name</label> <br />
+
+          <input
+            type="text"
+            name="data"
+            id="namebox"
+            placeholder="Enter your age"
+          />
+        </div>
+
+        <div class="box1">
+          <label for="agebox">Age </label> <br />
+          <input type="number" id="agebox" name="" placeholder="Age" />
+        </div>
+
+        <div class="box1">
+          <label for="emailbox">Email</label><br />
+          <input
+            type="email"
+            id="emailbox"
+            name=""
+            placeholder="email adresinizi giriniz"
+          />
+        </div>
+
+        <div class="box">
+          <label for="contentbox">Content Type</label> <br />
+          <select name="" id="contentbox">
+            <option value="">Series</option>
+            <option value="">x</option>
+            <option value="">y</option>
+            <option value="">z</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <span>Move Type</span> <br />
+
+          <input type="checkbox" id="movebox" /><label for="movebox"
+            >Comedy</label
+          >
+
+          <br />
+
+          <input type="checkbox" id="movebox" /><label for="movebox"
+            >Action
+          </label>
+
+          <br />
+
+          <input type="checkbox" id="movebox" /><label for="movebox"
+            >Romantic</label
+          > 
+        </div> <br>
+        <div class="box">
+          <span>Gender</span> <br />
+
+          <input type="radio" name="gender" id="gender1" value="Erkek" />
+          <label for="gender1">Male</label><br />
+
+          <input type="radio" name="gender" id="gender2" value="Bayan" />
+          <label for="gender2">Female</label><br />
+
+          <input type="radio" name="gender" id="gender3" value="Diğer" />
+          <label for="gender3">Other</label>
+        </div> <br>
+
+        <div>
+          <label for="message">Feed Back</label> <br />
+          <textarea
+            name=""
+            id="message"
+    
+            placeholder="Feed Back message"
+          ></textarea>
+        </div>
+        <input class="subclass" type="submit" value="Submit" />
+      </div>
+    </form></div>
+  </body>
+</html>
