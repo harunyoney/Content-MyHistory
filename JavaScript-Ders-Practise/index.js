@@ -71,3 +71,29 @@ let str4= new String ("ksdkasndas")
 
 
 console.log(str4);
+
+console.log(4 < 5 && 5 > 3)
+
+console.log(15 % 6)
+console.log(Math.round(15.67))
+console.log(4!==5);
+console.log(4==5);
+console.log(4<=5);
+console.log(4**5);
+// console.log("55" < 56 && 67 === "67" || 253  11 && !false);
+
+console.log(!false);
+
+console.clear()
+
+console.log(4 < 5 && 5 > 3)
+console.log(0 && true);
+console.log(Boolean(-5,58));
+console.log( typeof ( 3 + "5") )
+
+console.log(false || 0 && true);
+console.log(0 && true);
+
+let pax=4**3
+console.log((pax*2-15)/9) ;
+
