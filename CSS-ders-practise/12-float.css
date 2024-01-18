@@ -1,0 +1,43 @@
+.img1 {
+    /* width: 40%; */
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+
+
+}
+
+p{
+    background-color: #743b3b;
+}
+
+/* img{
+    width: 100px;
+} */
+
+
+#div{
+    border: 2px solid red;
+}
+
+
+.container{
+    border: 2px solid red;
+}
+
+.box{
+    
+}
+
+.box1{
+    background-color: lime;
+    background-image: url("https://picsum.photos/id/237/600/400");
+}
+
+.box2{
+    background-color: purple;
+}
+
+.box3{
+    background-color: darkorange;
+}
