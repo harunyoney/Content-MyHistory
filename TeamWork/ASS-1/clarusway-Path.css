@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    
+}
+html{
+    background: rgb(37,15,52);
+background-image: linear-gradient( to right, rgba(47,15,52,1) 0%, rgba(29,72,253,1) 50%, rgba(133,71,238,0.9112832633053222) 100%);
+
+}
+   
+
+@font-face {
+    font-family: clarus;
+    src: url(./clarus.ttf) format('truetype'); 
+}
+
+h1{ font-family: clarus;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+
+}
+h2{
+   display: inline;
+   color: chocolate;
+}
+p{
+    color: white;
+}
+
+img{
+    width: 27%;
+    height: 180px;
+    
+    float:left   
+}
+
+img:hover {
+    width: 380px;
+    height: 230px;
+    cursor: pointer;
+    
+    float:left   
+}
+
+.div{
+    width: 90%;
+    border-radius: 4px;
+    background: rgb(37,15,52);
+background-image: linear-gradient(165deg, rgba(66,27,92,1) 0%, rgba(40,75,221,1) 50%, rgba(74,219,242,0.9112832633053222) 100%);
+    text-align: justify;
+    padding: 6px;
+    margin: auto;
+    margin: 30px auto;
+}
+.div-but{ 
+    clear: both;}
+    
+
+    a{
+        text-decoration: none;
+        color: rgb(250, 250, 250);
+    }
+    button:hover{
+        width: 120px;
+        margin: 7px;
+        margin-right: 20px;
+        padding: 6px;;
+        border-radius: 7px;
+        
+    }
+
+ button{
+    width: 80px;
+    margin: 5px;
+    margin-right: 20px;
+    padding: 4px;;
+    border-radius: 5px;
+    background-color: rgb(247, 126, 40);
+    
+    
+
+}
+#xxx{ text-align: right;
+
+}

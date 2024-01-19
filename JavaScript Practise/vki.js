@@ -32,3 +32,5 @@ console.log(5 + "5");
 //     // {console.log("tanımsız");}
     
 // console.log(5 +"5");
+
+
