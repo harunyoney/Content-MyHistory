@@ -1,0 +1,73 @@
+
+
+.main{
+    background-color: rgba(194, 239, 127, 0.88);
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    
+}
+
+.box1{
+    background-color: rgba(0, 0, 255, 0.886);
+    width: 100px;
+    height: 100px;
+    position: static;
+    /* top: 500px; */
+    
+}
+
+.box2{
+    background-color: rgba(255, 0, 255, 0.769);
+    width: 100px;
+    height: 100px;
+   
+
+    position: relative;  
+     top: 20px;
+    left: 50px; 
+    /* margin-top: 20px;
+    margin-left: 50px; */
+    z-index: -1;
+}
+
+.box3{
+    background-color: rgba(255, 140, 0, 0.896);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -21;
+}
+
+.box4{
+    background-color: rgba(255, 255, 0, 0.886);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 150px;
+    right: 150px;
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paragraf2{
+    background-color: rgba(0, 0, 255, 0.514);
+    border-radius: 22px;
+    position: sticky;
+    top: 4px;
+    left: 0;
+}
