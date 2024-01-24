@@ -1,10 +1,63 @@
 
 
 div p{
-background-color: aqua;
+/* background-color: aqua; */
 
 }
 
 .container .box p{
-    background-color: rgb(75, 196, 196);
+    /* background-color: rgb(75, 196, 196); */
+}
+
+.container > p {
+    /* background-color: red; */
+}
+
+body  p:nth-child(4) {
+    /* background-color: red; */
+}
+
+
+
+p + div{
+    /* background-color: red; */
+}
+div + p{
+    /* background-color: blue; */
+}
+
+div ~ p{
+    /* color: red; */
+}
+
+h2[title="t1"] {
+    color: red;
+}
+
+p[title="t2"] {
+    color: rgb(155, 71, 71);
+}
+
+[class="box"]::first-letter {
+    background-color: aqua;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: small-caps;
+
+}
+
+.out{
+    border: 4px solid red;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+    box-sizing: border-box;
+    outline: 5px double blue;
+    outline-offset: 1rem;
+    outline-style: inset;
+    
 }
