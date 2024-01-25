@@ -17,7 +17,38 @@
 
    <div >asdasd</div>
    <div class="div">sdasd</div>
+
+
+   <h1>Javascript Bir Sayıyı Ters Yazdırma Örneği</h1>
+    
+   <label>Bir sayı giriniz : </label>
+   <input type="number" id="sayi">
+
+   <button id="hesapla" onclick="hesapla()">Hesapla</button>
+
+   
+   <script>
+       function hesapla(){
+           let reverse = 0;
+           let sayi=parseInt(document.getElementById("sayi").value);
+
+           while (sayi != 0)
+           {
+            //    reverse = reverse * 10;
+               reverse = reverse + sayi % 10;
+               sayi = Math.floor(sayi / 10);
+           }
+
+           window.alert(reverse);
+       }
+
+   </script>
  
-    <script src="vki.js"></script>
+    <!-- <script src="vki.js"></script> -->
+    <script src="forWhile.js"></script>
+
+
+
+
 </body>
 </html>
