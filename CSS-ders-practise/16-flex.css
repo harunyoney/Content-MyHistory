@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 1rem;
+}
+
+ul{
+    background-color: aqua;
+    list-style-type: none;
+    height: 100px;
+    font-size: 1.5rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: raw;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* justify-content:center;
+    align-items: center; */
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+
+ul li{
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 30px;
+    
+}
+
+
+
+
+
+.container{
+    background-color: blueviolet;
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container * {
+    background-color: blanchedalmond;
+    padding: 5px;
+    margin: 10px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container header{
+    flex-basis: 100%;
+
+}
+
+.container footer{
+    flex-basis: 100%;
+
+}
+
+.container main{
+     /* flex-basis: 40%; */
+    flex-grow: 1;
+
+}
+
+.container aside{
+    /* flex-basis: 22%; */
+flex-grow: 5;
+}
+
+.container article{ 
+    /* flex-basis: 22%; */
+flex-grow: 5;
+}
+
+
+.shrink{
+    background-color: aqua;
+    margin: 50px;
+    display: flex;
+    padding: 5px;
+}
+
+.shrink *{
+    /* width: 200px;
+    height: 100px; */
+    flex-basis: 100%;
+}
+
+.shrink :nth-child(1){
+    background-color: red;
+    
+}
+
+.shrink :nth-child(2){
+    background-color: rgb(192, 59, 59);
+   
+}
+
+.shrink :nth-child(3){
+    background-color: rgb(185, 135, 135);
+    
+}
+/* **************************************** */
+.container2{
+background-color: blueviolet;
+margin-top: 25px;
+padding: 10px;
+display: flex;
+/* justify-content: space-between; */
+flex-wrap: wrap;
+}
+.container2 *{
+    background-color: aquamarine;
+    height: 55px;
+}
+
+.container2 header{
+    background-image: url("https://picsum.photos/id/684/600/400");
+    background-size: contain;
+    
+    background-color: aqua;
+    width: 100%;
+
+}
+
+.container2 footer{
+    width: 100%;
+    
+    
+
+}
+
+.container2 main{
+   width: 33.33%;
+   background-image: url("https://picsum.photos/id/684/600/400");
+    background-size: contain;
+}
+
+.container2 aside{
+    width: 33.33%;
+}
+
+.container2 article{ 
+    width: 33.33%;
+}
