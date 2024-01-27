@@ -1,0 +1,24 @@
+.container{
+    background-color: rgb(166, 204, 204);
+    height: 100px;
+    margin: 15px;
+    padding: 20px;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.container * {
+    width: 88px;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
