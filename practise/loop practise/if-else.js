@@ -139,7 +139,7 @@ else if (p2===7) {
 // +"0 - Ehliyetiniz Yok "+ yeniSatir +"Lütfen bir değer giriniz")
 //   let k = +prompt (y)
 
-console.log( "kasmdkamskdmaks  \r\n asdasdasdsd \r\n asdasdasdasd" ); 
+// console.log( "kasmdkamskdmaks  \r\n asdasdasdsd \r\n asdasdasdasd" ); 
 
 
 // let z = ((x>=18 && x<64) && k==1)
@@ -190,10 +190,91 @@ console.log( "kasmdkamskdmaks  \r\n asdasdasdsd \r\n asdasdasdasd" );
 
 
 
-for (let y = 1; y<=10; y++) { 
-    for (let x = 1; x<=10 ;x++) { 
-    console.log(`${y}x${x}=${x*y}`)  }
-    console.log("****************************");
-}
+// for (let y = 1; y<=10; y++) { 
+//     for (let x = 1; x<=10 ;x++) { 
+//     console.log(`${y}x${x}=${x*y}`)  
+//     }
+
+//     console.log("****************************");
+// }
+
+
+// Pratik 8 - Pratik 4'teki login örneğini yapalım ancak kullanıcıya 3 giriş hakkı verelim. Kullanıcı her başarız giriş yaptığında kaç hakkının kaldığını console'a yazdıralım, Eğer hakkı kalmadıysa hakkının tükendiğini belirtip tekrar id password talep etmeyelim.
+
+
+// let id = prompt("id giriniz")
+// let pass = prompt("sifre giriniz")
+// let hak =3
+
+ 
+// if (id == "harun" && pass=="1234" ) 
+// {
+//     console.log("giriş başarili");
+// } 
+// else { 
+//     do {
+//         console.log(`${hak} giriş hakkiniz kaldi`); 
+//         id = prompt("id giriniz");
+//         pass = prompt("sifre giriniz")
+        
+//         if (id == "harun" && pass=="1234" ) 
+//     {
+//         console.log("giriş başarili");
+//         break;
+//     } 
+    
+//         hak-- ;
+//     }
+
+    
+
+//     while ( hak>=0);
+// }
+
+
+
+
+
+
+
+// Kullanıcıdan 2 tane sayı girmesini isteyip bu sayı arasındaki tüm sayıların toplamını console'a yazdıralım
+
+
+// let s1=62
+// let s2=65
+
+// let sonuc=0
+
+
+// if(s2>s1) {
+// for(s1;s1<=s2; s1++)
+// {    sonuc+=s1   }
+// console.log(sonuc);
+// }
+// else{ 
+//     for(s2;s2<=s1; s2++){
+//         sonuc+=s2
+//     }
+//         console.log(sonuc);
+//     }
+
+
+
+// Pratik 10 - Kullanıcı negatif sayı girene kadar girdiği tüm pozitif sayıları toplayıp, negatif sayı girdiği esnada işlemi durdurup (negatif sayı hesaba katılmayacak) kaç sayı girildiğini, en küçük sayıyı, en büyük sayıyı, girilen sayıların ortalamasını console'a yazdıralım.
+
+// let x=Number(prompt("sayi gir lo"))
+// toplam=0
+// girilenSayiAdedi= 0
+
+// do
+//  {
+
+// toplam+=x
+// x=Number(prompt("sayi gir lo"))
+// girilenSayiAdedi++
+// } while(x>=0);
+
+// console.log(`negatif sayı hesaba katılmayacaktır. toplam:${toplam} ${girilenSayiAdedi} `);
+
 
 
