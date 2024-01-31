@@ -43,13 +43,47 @@
 // BURASI YENİ YER
 
   
-// let x ="yazi yazia"
-// let i =x.length -1
-// console.log(i);
-// for(let i =x.length -1 ; i>=0 ; i--) {
-//     if(x[i]===" " || i ===0)
-// }
+let x ="harun yoney ws"
+let i =x.length -1
+let yeni=""
+let sonHal=""
+for(i =0 ; i<=x.length -1 ; i++) {
+    // console.log();
+    
 
+    if(x[i]===" " || i===x.length) { 
+
+        if(x[i]===" "){
+            yeni=" "+yeni
+            sonHal+=yeni
+            console.log(sonHal);
+            console.log(yeni);
+            yeni=""
+            console.log(yeni);
+            
+        
+    }else{
+        sonHal+=yeni
+        console.log(sonHal);
+    }
+    yeni=""
+    
+    }else {
+        yeni+=x[i]
+        
+    
+    }
+   
+    
+    
+  
+
+
+}
+
+
+console.log(yeni);
+console.log(sonHal);
 
 
 
@@ -59,18 +93,18 @@
 
 
 
-let n = 5
-if (n===1) {
-    console.log("0");
+// let n = 5
+// if (n===1) {
+//     console.log("0");
 
-}else if (n===2) {
-    console.log("1");
-}else {
-    let a=0, b=1;
-    let cikti ="0, 1"
+// }else if (n===2) {
+//     console.log("1");
+// }else {
+//     let a=0, b=1;
+//     let cikti ="0, 1"
     
 
 
     
-}
+// }
 

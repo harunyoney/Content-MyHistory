@@ -3,18 +3,19 @@
 console.log("*** WELCOME TO GUESS GAME ****")
 
 let roll= Math.round(Math.random()*100)
-let trial=+prompt("lütfen kaç deneme yapmak istediğinizi seçimiz")
-
+let trial=+prompt("lütfen kaç deneme yapmak istediğinizi seçiniz")
 let guess=""
-
 do {
-    guess=+prompt("1 ile 100 arasındaki tahmini giriniz ")
+    guess=+prompt("1 ile 100 arasindaki tahmini giriniz ")
     // console.log(roll);
-
     if(guess===roll) {
         alert("tebrikler cok iyisin");
         break;
-    }else if(guess>roll){
+    }else if (trial === 1) {alert("üzgünüm elendiniz")
+    break;
+}
+    
+    else if(guess>roll){
         trial-=1
         alert(`daha küçük at
          kalan deneme sayisi=${trial}`);
@@ -24,15 +25,12 @@ do {
          kalan deneme sayisi=${trial}`);
     }
     console.log(trial);
-    
 
-    
-} 
-
-while (trial>0);
+        
+} while (trial>0);
 // console.log(guess);
 // console.log(roll);
-if (guess !== roll) {alert("üzgünüm elendiniz")}
+
 
 
 
