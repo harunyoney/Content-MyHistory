@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+:root{
+
+    /* COLORS */
+    --white:#ececec;
+    --orange: #e8a935;
+    --orange-dark: #f7a100;
+    --blue: rgb(14, 147, 183);
+    --blue-dark: rgb(5, 20, 227);
+    --yesil: #3fe408;
+    --yesil-koyu: #0e4216;
+--bgc:21px solid black;
+    /* FONT */
+    
+}
+
+body{
+    background-color: var(--white);
+    /* font-family: 'Workbench', sans-serif; */
+}
+
+h1{
+    /* background-color: var(--blue); */
+   border:  var(--bgc);
+}
+
+p{
+    background-color: var(--blue-dark);
+    color: var(--orange-dark);
+}
+
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    
+}
+
+.light{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil);
+}
+
+.dark{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil-koyu);
+}
