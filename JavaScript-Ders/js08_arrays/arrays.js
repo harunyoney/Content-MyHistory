@@ -107,3 +107,32 @@ console.log(cars)
 
 //* sort()
 
+//! sort metodu diziyi iterasyona ugratir ve ascii karaktere göre sıralama yapar.
+//! Dolayısıyla string'le doğru şekilde sıralama yapabilir.
+cars.sort()
+console.log(cars)
+cars.reverse()
+console.log(cars)
+
+//! Ancak sayılar ile doğrudan siralama yapilirsa ascii'Den dolayı yanlis degerler siralanmiş olabilir.
+const numbers = [3, 2, 22, 6, 1, 11, 9, 3]
+
+numbers.sort((a, b) => a - b) //? Asc küçükten büyüğe
+numbers.sort((a, b) => b - a) //? DESC (büyükten küçüğe)
+console.log(numbers)
+
+//* fill()
+
+const degerler = [2, 1, 4, 33, 7, 9, 22]
+degerler.fill(0)
+
+// for (let i = 0, j = 1; i < degerler.length; i++) {
+//   degerler[i] = j++
+// }
+
+degerler.fill(77, 3) //?1.parmetere: deger, 2.start index
+degerler.fill(44, 3, 5) //?1.parmetere: deger, 2.start index, 3. end index (not inclusive)
+
+console.log(degerler)
+
+
