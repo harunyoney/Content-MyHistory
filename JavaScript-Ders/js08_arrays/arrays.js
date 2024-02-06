@@ -1,4 +1,4 @@
-// ?==============================================
+/* // ?==============================================
 // ?            DIZILER (ARRAYS)
 // ?==============================================
 
@@ -134,5 +134,95 @@ degerler.fill(77, 3) //?1.parmetere: deger, 2.start index
 degerler.fill(44, 3, 5) //?1.parmetere: deger, 2.start index, 3. end index (not inclusive)
 
 console.log(degerler)
+
+
+
+
+let xxx=0
+const numberss =[ 3,5,13,666,23,355,78]
+
+numberss.forEach ( solonumber => {
+  xxx+=solonumber
+  
+
+}       )
+
+console.log(xxx)
+console.log(numberss);
+ 
+console.clear();
+
+var start = 1;
+function setEnd(){
+ var end = 10; }
+
+
+ for(let i =9 ;i>=8;i--) {
+  var end2 =10
+  
+ }
+ */
+
+
+// console.log(end);
+
+
+/* 
+
+function setEnd(){
+ end = 10;
+}
+setEnd();
+console.log(end);
+
+console.log(end===10);
+
+
+
+
+let nameEach = []
+const namess = ["harun" , "şevki" , "ayşe" ,"ekrem", "bilal"]
+console.log(namess);
+namess.forEach ( name =>  {
+  nameEach.push(name)
+  
+}  ) 
+
+console.log(nameEach); */
+
+
+// Print all the multiplication tables with numbers from 1 to 10
+
+const tablo = function (a,b) {
+  
+for(let i = 1; i <=a ; i++){
+  for(let j =1; j <=b ;  j++){
+    let b = `${i} * ${j} = ` + i*j
+    console.log(b);
+     
+    
+  }
+ 
+}
+
+}
+tablo(10,10)
+// console.log(tablo());
+
+console.clear()
+
+
+// function setEnd(){
+// var end = 10;
+// }
+// setEnd();
+// console.log(end);
+
+
+let harun = () =>  { var harun2 = 10 ;
+}
+harun()
+console.log(harun2);
+
 
 
