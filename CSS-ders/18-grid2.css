@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 1px;
+    
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.content{
+    background-color: aquamarine;
+    border: 3px solid;
+    
+}
+.content:active{
+    content: url(./img/Harvey.png);
+    width:100%;
+    height: 100%;
+    box-shadow: 5px 5px 20px blue;
+    transform: scale(0.9);
+    /* background-color: aquamarine; */
+}
+
+.content1{
+    grid-column:1 /3 ;
+    grid-row: 1/3;
+    display: inline-flex;
+}
+
+.content2{
+    grid-column: 2/4;
+    display: inline;
+}
