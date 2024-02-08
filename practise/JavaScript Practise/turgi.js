@@ -69,3 +69,15 @@ console.log(typeof salary);
  console.log(typeof(salary) , salary);
 
 
+const myArr= ["1","harun",2]
+const newArr = myArr
+myArr.sort()
+
+console.log(newArr);
+
+
+const myArr2= ["1","harun",2]
+const newArr2 = myArr2.reverse()
+
+
+console.log(newArr2);

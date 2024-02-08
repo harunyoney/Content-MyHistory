@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr 1fr  ;
+    grid-template-columns: repeat(4 ,1fr) ;
+    height: 100vh;
+    grid-template-areas: 
+    "header header header header"
+    "box1 box2 box3 sidebar"
+    "main main main sidebar"
+    "footer footer footer footer";
+    gap: 1rem;
+    font-family: 'Proxima Nova Extra Condensed', sans-serif;
+    background: rgb(76,64,84);
+background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%, rgba(156,131,114,0.8603816526610644) 100%);
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.img{
+    width: 120px;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    background: rgb(76,64,84);
+background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%, rgba(156,131,114,0.8603816526610644) 100%);
+    border: 1px solid black;
+}
+
+.content1{
+    grid-area: header;
+}
+.content2{
+    grid-area: box1;
+}
+.content3{
+    grid-area: box2;
+}
+.content4{
+    grid-area: box3;
+}
+.content5{
+    grid-area: sidebar;
+}
+.content7 {
+    grid-area: footer;
+}
+
+.content6{
+    grid-area: main;
+}

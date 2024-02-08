@@ -45,6 +45,10 @@ body{
     align-items: center;
     justify-content: center;
 }
+.div:hover{
+    background-color: rgba(43, 46, 46, 0.689);
+    cursor: pointer;
+}
 .div1 , .div2 , .div3 {
     background-color: rgb(169, 177, 183);
     color: black;
