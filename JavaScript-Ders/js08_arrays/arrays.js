@@ -219,10 +219,28 @@ console.clear()
 // console.log(end);
 
 
-let harun = () =>  { var harun2 = 10 ;
-}
-harun()
-console.log(harun2);
+// let harun = () =>  { var harun2 = 10 ;
+// }
+// harun()
+// console.log(harun2);
+
+
+
+
+let names = ["mustafa", "murat", "ahmet", "ayşe", "mustafa"];
+
+names.map((isim, indis, dizi) => {
+  names.push(isim.toLocaleUpperCase());
+});
+
+console.log(names);
+names.toLocalUppercase;
+
+const k3=[1,5,9,8,7]
+const k4 =k3
+console.log(k4);
+k3.sort()
+console.log(k4);
 
 
 
