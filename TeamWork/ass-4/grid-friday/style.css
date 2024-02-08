@@ -14,9 +14,9 @@ background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%
 }
 .container{
     display: grid;
-    grid-template-rows: 1fr 2fr 4fr 1fr  ;
+    grid-template-rows: 100px 250px 450px 30px  ;
     grid-template-columns: repeat(4 ,1fr) ;
-    height: 100vh;
+    
     width: 80vw;
     
     grid-template-areas: 
@@ -74,46 +74,53 @@ background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content{
-   
-    border: 1px solid black;
-}
-
 .content1{
     grid-area: header;
 }
 .content2{
     grid-area: box1;
+   
+}
+
+.content2 img:hover{
+    transition: all .3s ease-in;
+    transform: scale(1.2);
 }
 .content3{
     grid-area: box2;
+    
+   
+    
+}
+.content3 img:hover{
+    transition: all .3s ease-in;
+   transform: scale(1.2);
 }
 .content4{
     grid-area: box3;
+   
+}
+
+.content4 img:hover{
+    transition: all .3s ease-in;
+    
+   transform: scale(1.2);
 }
 .content5{
     grid-area: sidebar;
+    background-color: rgba(240, 255, 255, 0.623);
+    font-weight:500;
+    
+}
+ul , h4{margin: 5px;
+    
 }
 .content7 {
     grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
 }
 
 .content6{
