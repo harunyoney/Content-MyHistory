@@ -5,12 +5,20 @@
     
 }
 @import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
-
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(76,64,84);
+background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%, rgba(156,131,114,0.8603816526610644) 100%);
+}
 .container{
     display: grid;
     grid-template-rows: 1fr 2fr 4fr 1fr  ;
     grid-template-columns: repeat(4 ,1fr) ;
     height: 100vh;
+    width: 80vw;
+    
     grid-template-areas: 
     "header header header header"
     "box1 box2 box3 sidebar"
@@ -18,8 +26,8 @@
     "footer footer footer footer";
     gap: 1rem;
     font-family: 'Proxima Nova Extra Condensed', sans-serif;
-    background: rgb(76,64,84);
-background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%, rgba(156,131,114,0.8603816526610644) 100%);
+    
+
 }
 
 .header{
@@ -27,18 +35,41 @@ background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-}
-
-
-.img{
-    width: 120px;
     height: 100%;
+    padding: 5px;
+    
+}
+.search input{
+    background: rgba(41, 43, 43, 0.455);
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    width: 300px;
+    
+}
+.fa-magnifying-glass {
+    margin-right:-30px ;
+}
+.right a{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
 }
 
 
-
-
-
+.right{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    
+}
 
 
 
@@ -62,8 +93,7 @@ background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%
 
 
 .content{
-    background: rgb(76,64,84);
-background: linear-gradient(165deg, rgba(76,64,84,1) 0%, rgba(128,128,128,1) 50%, rgba(156,131,114,0.8603816526610644) 100%);
+   
     border: 1px solid black;
 }
 
