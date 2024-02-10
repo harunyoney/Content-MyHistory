@@ -1,0 +1,73 @@
+body{
+    
+    background-color: aqua;
+    height: 100vh;
+}
+.bg-image{
+    /* position: relative; */
+    background-image: url(./img/Img_1.png);
+    height: 100vh;
+    
+}
+.div{
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.div i{
+    font-size: 5rem;
+    color: rgb(44, 64, 64);
+    
+}
+
+.fa-bell{
+    /* background-color: aqua; */
+    animation-name: shake;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin:top ;
+}
+
+
+
+@keyframes shake {
+    0%{
+        transform: rotate(15deg);
+
+
+    }
+    
+    100%{
+        transform: rotate(-15deg);
+
+
+    }
+}
+
+.fa-dollar-sign{
+    animation-name:dolar;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-direction: ; */
+    transform-origin:left ;
+}
+
+
+@keyframes dolar {
+    0%{
+        transform: rotate(0deg);
+
+
+    }
+    
+    100%{
+        transform: rotate(360deg);
+
+
+    }
+}
