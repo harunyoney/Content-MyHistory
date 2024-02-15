@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Grid</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="bg-danger container-fluid">
+        <h1 class="bg-dark text-center p-5 text-warning container">GRİD!</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5 bg-primary">A</div>
+            <div class="col-7 bg-warning">B</div>
+            <div class="col-9 bg-info">C</div>
+            <div class="col-3 bg-success">D</div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row justify-content-center ">
+            <div class="col-6 bg-success">6</div>
+            <div class="col-6 bg-danger">6</div>
+            <div class="col-3 bg-info">3</div>
+            <div class="col-9 bg-secondary">9</div>
+            <div class="col-3 bg-success">3</div>
+            <div class="col-6 bg-primary">6</div>
+            <div class="col-3 bg-danger">3</div>
+            <div class="col-4 bg-primary">4</div>
+            <div class="col-4 bg-warning">4</div>
+            <div class="col-4 bg-danger">4</div>
+            <div class="col-4 bg-danger text-warning">4</div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row border border-5 border-danger gap-5 align-items-center justify-content-center" style="height: 150px; ">
+            <div class="col-3 bg-primary text-center">Harvey</div>
+            <div class="col-3 bg-danger text-center">Ashley</div>
+        </div>
+    </div> -->
+
+    <!--! RESPONSIVE -->
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-xxl-4  bg-primary">
+                <h1>başlık</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam pariatur accusantium iusto
+                    consequatur doloremque et nihil tenetur, voluptatibus, sint sunt consequuntur dolorem aperiam
+                    aliquid debitis quasi qui officia recusandae ad!</p>
+
+            </div>
+            <div class="col-12 col-md-6 col-xxl-4  bg-warning ">
+                <h1>başlık</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam pariatur accusantium iusto
+                    consequatur doloremque et nihil tenetur, voluptatibus, sint sunt consequuntur dolorem aperiam
+                    aliquid debitis quasi qui officia recusandae ad!</p>
+            </div>
+            <div class="col-12 col-md-6 col-xxl-4 bg-danger">
+                <h1 class="">başlık</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam pariatur accusantium iusto
+                    consequatur doloremque et nihil tenetur, voluptatibus, sint sunt consequuntur dolorem aperiam
+                    aliquid debitis quasi qui officia recusandae ad!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sadece xs ekranlarda gözükecek bir element tasarlayınız.
+      Sadece xs ekranlarda gözükmeyecek bir element tasarlayınız.
+      Sadece md ekranlarda gözükecek bir element tasarlayınız.
+      Sadece md ekranlarda gözükmeyecek bir element tasarlayınız.
+      Sadece md+ ekranlarda gözükecek bir element tasarlayınız.
+       -->
+
+       <div class="container my-5">
+        <div class="row">
+            <div class=" text-center col-12 d-sm-none  bg-success">Sadece XS</div>
+            <div class=" text-center col bg-danger d-none d-sm-block">Sadece XS</div>
+            <div class=" text-center col bg-secondary d-none d-md-block d-lg-none">Sadece MD</div>
+        </div>
+       </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
