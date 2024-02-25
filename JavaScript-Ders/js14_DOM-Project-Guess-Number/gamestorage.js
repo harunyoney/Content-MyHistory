@@ -68,7 +68,8 @@ document.querySelector(".check").addEventListener("click", () => {
     }
 }else {
            mesaj.textContent = "Geçersiz sayı girdiniz (1 - 20 arasında bir sayı giriniz"
-           document.querySelector(".guess").value = "";}
+           document.querySelector(".guess").value = "";
+           document.querySelector(".guess").focus();}
 } )
 
 //?Again butonuna basınca ayarlar başlangıç değerlerine kurulsun. Aka plan #2d3436 olsun
@@ -91,6 +92,7 @@ document.querySelector(".again").onclick = () => {
     mesaj.textContent = "Oyun yeni oyuncu için başlıyor... "
 
     document.querySelector(".check").disabled = false
+    document.querySelector(".guess").focus();
 
 
 }
