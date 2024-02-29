@@ -1,61 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+/* Error: expected "}".
+ *     ,
+ * 186 | }
+ *     |  ^
+ *     '
+ *   style.scss 186:2  root stylesheet */
 
-body {
-  background-color: pink;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1.2rem;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 186 \2502  }\d\a     \2502   ^\a     \2575 \a   style.scss 186:2  root stylesheet';
 }
-
-header {
-  background-color: #30A7C3;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-}
-header img {
-  width: 80px;
-  border: 2px solid brown;
-}
-header ul {
-  list-style-type: none;
-}
-header ul li {
-  display: inline-block;
-  padding: 0.5rem;
-}
-header ul li a {
-  color: white;
-  text-decoration: none;
-}
-header ul li a:hover {
-  text-decoration: underline;
-  background-color: aquamarine;
-}
-
-.banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  line-height: 2rem;
-  background-color: hotpink;
-}
-.banner aside button {
-  background-color: #864242;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 5px;
-  margin-top: 1rem;
-  margin-left: 0.5rem;
-}
-.banner aside button:hover {
-  background-color: red;
-  cursor: pointer;
-}
-
-/*# sourceMappingURL=style.css.map */
