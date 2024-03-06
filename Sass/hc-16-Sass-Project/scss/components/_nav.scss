@@ -1,11 +1,14 @@
+//*****************************************************
+//*   NAV
+//*****************************************************
+
 .nav{
-    border: 2px solid red;
+    // border: 2px solid red;
     height: 10vh;
     padding: 1rem;
     &__list{
         text-align: right;
         list-style-type: none;
-
     }
     &__item{
         display: inline;
@@ -16,13 +19,13 @@
         font-size: 1rem;
         text-decoration: none;
         font-family: $font-family;
-        @include soft-trans(.5s);
+        font-weight: 500;
+        @include soft(.5s);
         &:hover{
-            color: brown;
+            color: blue;
         }
-
         &--active{
-            color: red;
+            color: $secondary-color;
         }
     }
 }
