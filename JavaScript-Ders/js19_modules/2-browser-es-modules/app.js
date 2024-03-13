@@ -13,9 +13,9 @@ console.log("ADD:", extAdd(3, 5))
 console.log("SUB:", sub(3, 5))
 console.log("MUL:", mul(6, 5))
 console.log("DIV:", div(8, 5))
-
-import { PI as pi } from "./hesapMakinasi.js" //? Hoisted
 console.log(pi)
+import { PI as pi } from "./hesapMakinasi.js" //? Hoisted
+
 
 import giveMessage from "./hesapMakinasi.js"
 giveMessage()
