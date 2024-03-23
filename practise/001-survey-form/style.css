@@ -1,0 +1,46 @@
+/* body{
+    background-image: url(../Content-MyHistory/CSS-ders-practise/img/background_image.jpg);
+} */
+
+div.all{
+    text-align: center;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.137);
+    margin: auto;
+}
+h1{
+    background-color: aliceblue;
+    text-align: center;
+    /* display: inline-block; */
+    margin: auto;
+    
+    width: 500px;
+}
+
+/* .formbox{
+    background-color: rgb(189, 57, 57);
+    width:30% ;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 300px;
+
+} */
+
+#form1{
+    text-align: left;
+}
+
+form#form1 label{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div.box input{
+    background-color: aqua;
+    width: 85%;
+    height: 30px;
+    
+
+}
+
