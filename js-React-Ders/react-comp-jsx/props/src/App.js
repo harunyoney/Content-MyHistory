@@ -1,15 +1,23 @@
 //? Component
+
+import Cat from "./companants/Cat";
+
 function App() {
   //? JS kodu
-  const deneme = "REACT"
 
   return (
     //! JSX (HTML- JS'nin birleşmiş hali)
     <div className="App">
-      <h2 style={{ color: "red" }}>Hoşgeldin Ya Şehri React</h2>
-      <p className="par">{deneme}</p>
+      <Cat
+        name="Kedi"
+        img="https://picsum.photos/id/684/600/400"
+        color="rgba(96, 97, 143, 0.575)"
+        eye
+      />
+      <Cat />
+      <Cat />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
