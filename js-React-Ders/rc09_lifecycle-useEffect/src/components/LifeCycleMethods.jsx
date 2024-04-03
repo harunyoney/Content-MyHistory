@@ -20,11 +20,18 @@ import React from "react"
 
 class LifeCycleMethods extends React.Component {
   constructor(props) {
-    console.log("Constructor running")
+    console.log("Constructor running1 ")
     super(props)
     this.state = {
       count: 0,
     }
+  }
+  componentDidMount(){console.log("componentDidMount3 running")}
+  componentDidUpdate(){console.log("componentDidUpdate4 running")}
+
+  componentWillUnmount(){
+    console.log("componentWillUnmount running")
+
   }
 
   handleInc = () => {
@@ -34,6 +41,7 @@ class LifeCycleMethods extends React.Component {
   }
 
   render() {
+    console.log("render running2 ")
     return (
       <div className="container text-center">
         <h1 className="text-danger">LIFECYCLE METHODS</h1>
