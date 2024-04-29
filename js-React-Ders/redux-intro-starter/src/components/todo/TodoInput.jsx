@@ -1,10 +1,16 @@
 import { useState } from "react"
+import { useDispatch } from "react-redux"
+import { addTodo } from "../../store/todoReducer"
 
 const TodoInput = () => {
   const [text, setText] = useState("")
+  const dispatch = useDispatch()
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    //? UI tarafından global state'in degisitirilme isteginin reducer'a bildirilemesi
+    dispatch(addTodo(text))
+    // dispatch({ type: "ADD", payload: text })
     setText("")
   }
 
